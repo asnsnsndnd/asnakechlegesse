@@ -59,8 +59,7 @@ const Footer = () => {
               <h4 className="text-white font-semibold text-sm uppercase tracking-widest">Specialty</h4>
               <div className="flex flex-col gap-2 text-sm">
                 <span className="cursor-default">Web Apps</span>
-                <span className="cursor-default">Mobile Apps</span>
-                <span className="cursor-default">UI/UX Design</span>
+              
               </div>
             </div>
           </div>
