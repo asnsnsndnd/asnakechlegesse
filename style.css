@@ -1,0 +1,215 @@
+*{
+   margin: none;
+   padding:;
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100vw;
+    min-height:100vh;
+    padding: 0;
+    background-color: silver;
+    gap: 30px;
+}
+.nav{
+background-color: black;
+
+display: flex;
+width:100%;
+flex-direction: row;
+gap:60px;
+align-items: center;
+height: 60px;
+justify-content: center;
+position: relative;
+
+
+
+}
+.nav li{
+   
+}
+.nav li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+ 
+ 
+}
+.nav li a:hover{
+    color:rgb(41, 82, 165) ;
+}
+.main{
+
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+   padding-right: 20px;
+  
+}
+.tech{
+
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 200px;
+    border-radius: 15px;
+
+    background-color: white;
+}
+.tech h3{
+    font-size: 24px;
+    color: rebeccapurple;
+    font-weight: bold;
+    padding: 10px 2px;
+    display: block;
+    box-shadow: -5px 2px 20px black;
+}
+.tech ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tech ul li a{
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.hero{
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    padding:10px 20px ;
+    border-radius: 15px;
+}
+.hero  h1{
+
+    color:rebeccapurple ;
+    font-size: 40px;
+}
+
+
+.about{
+display: flex;
+    flex-direction: column;
+   
+    width: 200px;
+   
+    align-items: center;
+   
+    
+padding: 10px;
+border-radius: 10px;
+    background-color: white;
+
+}
+.about img{
+   width: 150px;
+   height: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 3px solid  rebeccapurple;
+}
+
+
+ .about h3{
+       font-size: 20px;
+    color: rebeccapurple;
+    font-weight: bold;
+    
+   
+}
+ .about p{
+font-size: 15px;
+line-height: 25px;
+font-weight: 100;
+
+
+}
+.about p span{
+
+    margin-left: 50px;
+   
+}
+.about_p{
+
+    width: 150px;
+   word-spacing: 3px;
+position: relative;
+bottom: 20px;
+
+} 
+.footer{
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 82, 165);
+    color: white;
+    margin-top: 20px;
+
+}
+
+.footer_sub{
+
+    display: flex;
+    justify-content: space-around;
+}
+.footer_sub div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_sub div h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer_sub div ul{
+ display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+
+}
+.footer_sub div ul a{
+    color: white;
+    text-decoration: none;
+}
+.last{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:720px){
+    .main {
+
+    flex-direction: column-reverse;
+}
+.tech,.hero,.about{
+    width: 100%;
+}
+
+
+
+
+}
+@media screen and (max-width:600px) {
+
+.footer_sub{
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+    
+}
