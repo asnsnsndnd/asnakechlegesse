@@ -115,17 +115,10 @@ const About = () => {
           {/* Real Experience / Metrics */}
           <div className="mt-12 pt-8 border-t border-gray-100 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
-              <h4 className="text-2xl font-bold text-gray-900">5+</h4>
+              <h4 className="text-2xl font-bold text-gray-900">2</h4>
               <p className="text-sm text-gray-500">Real Projects</p>
             </div>
-            <div>
-              <h4 className="text-2xl font-bold text-gray-900">3+</h4>
-              <p className="text-sm text-gray-500">Company Experience</p>
-            </div>
-            <div>
-              <h4 className="text-2xl font-bold text-gray-900">3</h4>
-              <p className="text-sm text-gray-500">Government System</p>
-            </div>
+          
             <div>
               <h4 className="text-2xl font-bold text-gray-900">100%</h4>
               <p className="text-sm text-gray-500">Production Ready</p>
