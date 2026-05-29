@@ -5,7 +5,7 @@ import { faCode, faServer, faToolbox, faDownload } from "@fortawesome/free-solid
 const About = () => {
   const techStack = [
     { 
-      name: "Frontend & Mobile", 
+      name: "Frontend ", 
       icon: faCode,
       skills: ["React", "Next.js", "React Native", "JavaScript", "Tailwind CSS", "HTML/CSS"] 
     },
@@ -78,7 +78,7 @@ const About = () => {
               that digitizes workflows, improves operational efficiency, and provides real-time data management.
             </p>
             <p>
-              I specialize in developing scalable web and mobile applications using 
+              I specialize in developing scalable web  using 
               <span className="text-gray-900 font-semibold"> MERN Stack and React Native</span>, focusing on performance, security, and usability.
             </p>
             <p>
@@ -89,7 +89,7 @@ const About = () => {
           {/* Technical Skills */}
           <div className="mt-16">
             <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              Technical Arsenal
+              Technical 
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {techStack.map((category) => (
