@@ -14,7 +14,15 @@ const projects = [
   },
  
  
-
+  {
+    title: "CGMS Admin Center",
+    description: "Enterprise workflow engine for institutional officers to manage complaint lifecycles and real-time compliance dashboards.",
+    credentials: { email: "sys_admin", pass: "SuperSecurePassword123" },
+    tech: ["React", "Express.js", "Prisma", "PostgreSQL", "Recharts"],
+    image: "https://res.cloudinary.com/dkzvlqjp9/image/upload/v1773670637/admin_zkhauf.png",
+    live: "https://bahir-cgms-abu.vercel.app/",
+    type: "Enterprise"
+  },
   {
     title: "EthioCommerce",
     description: "A high-performance e-commerce platform built with React and Tailwind CSS, featuring a sleek UI, responsive design, and seamless user functionality.",
