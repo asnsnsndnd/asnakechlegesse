@@ -12,7 +12,7 @@ const About = () => {
     { 
       name: "Backend & DB", 
       icon: faServer,
-      skills: ["Node.js", "Express", "MongoDB", "PostgreSQL", "Python", "Firebase"] 
+      skills: ["Node.js", "Express", "PostgreSQL", ] 
     },
     { 
       name: "DevOps & Tools", 
@@ -44,7 +44,7 @@ const About = () => {
           <div className="mt-10 space-y-4 text-center lg:text-left">
             <div>
               <h3 className="text-gray-900 font-bold text-2xl tracking-tight">Asnakech legesse</h3>
-              <p className="text-blue-600 font-medium italic text-sm">Full Stack Developer | Mobile Apps | Production Systems</p>
+              <p className="text-blue-600 font-medium italic text-sm">Full Stack Developer | Production Systems</p>
             </div>
             <div className="flex items-center justify-center lg:justify-start gap-2 text-gray-500 text-sm">
               <span className="relative flex h-3 w-3">

@@ -28,7 +28,7 @@ const HeroSection = () => {
           </h2>
           
           <p className="text-gray-600 text-lg mb-10 max-w-xl leading-relaxed">
-            I develop scalable, production-ready web and mobile applications using{" "}
+            I develop scalable, production-ready web 
             <span className="text-gray-900 font-semibold">MERN stack and React Native</span>.  
             I have experience building systems used in real environments, including company platforms and government solutions that improve workflow and efficiency.
           </p>
